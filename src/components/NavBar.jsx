@@ -133,7 +133,7 @@ export default function NavBar() {
         <button
           type="button"
           aria-label={menuOpen ? "Close Menu" : "Open Menu"}
-          aria-expended={menuOpen}
+          aria-expanded={menuOpen}
           onClick={() => setMenuOpen(!menuOpen)}
           className="relative z-50 flex h-10 w-10 flex-col items-center justify-center gap-1.5 md:hidden"
         >
